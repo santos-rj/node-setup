@@ -1,3 +1,4 @@
+import '@controllers/UserController';
 import express, { response } from 'express'
 
 const app = express()
