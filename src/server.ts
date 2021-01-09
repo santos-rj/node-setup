@@ -1,10 +1,10 @@
-import '@controllers/UserController';
-import express, { response } from 'express'
+import '@controllers/UserController'
+import express from 'express'
 
 const app = express()
 
 app.get('/', (request, response) => {
-    return response.json({ message: 'Hello World' })
+  return response.json({ message: 'Hello World' })
 })
 
 app.listen(3333)
